@@ -31,5 +31,32 @@ namespace OUTCore.Main {
                 return ((string)(this["InputFileName"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("_Addr.txt")]
+        public string AddFilePrefix {
+            get {
+                return ((string)(this["AddFilePrefix"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("_Freq.txt")]
+        public string FreqFilePrefix {
+            get {
+                return ((string)(this["FreqFilePrefix"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("yyyyMMddssmm")]
+        public string OutPutFilePrefix {
+            get {
+                return ((string)(this["OutPutFilePrefix"]));
+            }
+        }
     }
 }

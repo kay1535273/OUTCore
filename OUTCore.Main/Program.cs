@@ -15,9 +15,9 @@ namespace OUTCore.Main
         static void Main(string[] args)
         {
             var personService =  DependencyResolver<BindingModule>.Get<IPersonService>();
-            var filePrefix = DateTime.Now.ToString("yyyyMMddssmm");
-            const string addressFileName = "_Addr.txt";
-            const string frequenceFileName = "_Freq.txt";
+            var filePrefix = DateTime.Now.ToString(OUTCore.Main.Main.Default.OutPutFilePrefix);
+            var addressFileName = OUTCore.Main.Main.Default.AddFilePrefix;
+            var frequenceFileName = OUTCore.Main.Main.Default.FreqFilePrefix;
 
             using(TextWriter tw = new StreamWriter(filePrefix + frequenceFileName  ))
             {
