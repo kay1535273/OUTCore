@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>DeepEqual</id>
+    <version>1.6.0.0</version>
+    <title>DeepEqual</title>
+    <authors>James Foster</authors>
+    <owners>James Foster</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>http://github.com/jamesfoster/DeepEqual</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An extensible deep comparison library for .NET</description>
+    <summary />
+    <copyright>Copyright 2013</copyright>
+    <tags>deepequal deep equal equality comparison compare</tags>
+  </metadata>
+</package>
